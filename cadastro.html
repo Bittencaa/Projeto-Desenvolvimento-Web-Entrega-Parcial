@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Página de Cadastro</title>
+  <link rel="stylesheet" href="cadastro.css">
+
+</head>
+<body>
+
+<body>
+        <div class="container">
+            <div class="card">
+                <h1>Cadastrar</h1>
+                <div id="erro"></div>
+                <div id="sucesso"></div>
+
+                <div class="label-float">
+                    <input type="text" id="nome" placeholder="" required>
+                    <label id="labelNome" for="nome">Nome</label>
+                </div>
+
+                <div class="label-float">
+                    <input type="text" id="usuario" placeholder="" required>
+                    <label id="labelUsuario" for="usuario">Usuário</label>
+                </div>
+
+                <div class="label-float">
+                    <input type="password" id="senha" placeholder="" required>
+                    <label id="labelSenha" for="usuario">Senha</label>
+                </div>
+
+                <div class="label-float">
+                    <input type="password" id="confirmarSenha" placeholder="" required>
+                    <label id="labelConfirmarSenha" for="senha">Confirmar Senha</label>
+                </div>
+                
+                <div class="justify-center">
+                    <button onclick="cadastrar()">Cadastrar</button>
+                </div>
+
+                <div>
+                    <hr>
+                </div>
+
+                <p>Já possui uma conta?
+                    <a href="login.html">Faça seu login </a>
+                </p>
+
+                <p><a href="inicio.html">Voltar para o Início </a></p>
+
+            </div>
+        </div>
+    </body>
+
+  <script  src="cadastro.js"></script>
+
+</body>
+</html>

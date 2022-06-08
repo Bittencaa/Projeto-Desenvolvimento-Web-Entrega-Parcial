@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comprar ingressos</title>
+  <link rel="stylesheet" href="compra.css">
+</head>
+
+<body>
+  <main class="container page-content">
+  <h2 class="page-title">Exposições</h2>
+  <hr>
+  <div class="grid" id="grid">
+    <section class="card">
+      <div class="image">
+        <img src="imagens/expo1.jpg" class="card__image" alt="">
+      </div>
+      <div class="card__info">
+        <h4 class="card__title">Exposição 1</h4>
+        <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi nulla, eligendi,
+          officiis id corporis eius nisi voluptas, corrupti modi quisquam eveniet nobis voluptate deserunt
+          quam rem provident laborum a quae.</p>
+        <p class="card__price"><b>R$50.00</b></p><br>
+        Quantidade: <input type="number" class="card__qtd" value="1" min="1" max="10">
+        <button class="card__btn add-to-cart" data-id="1">Comprar</button>
+      </div>
+  </section>
+  <hr>
+  <section class="card">
+    <div class="image">
+      <img src="imagens/expo2.jpg" class="card__image" alt="">
+    </div>
+    <div class="card__info">
+      <h4 class="card__title">Exposição 2</h4>
+      <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi nulla, eligendi,
+        officiis id corporis eius nisi voluptas, corrupti modi quisquam eveniet nobis voluptate deserunt
+        quam rem provident laborum a quae.</p>
+      <p class="card__price"><b>R$55.00</b></p><br>
+      Quantidade: <input type="number" class="card__qtd" value="1" min="1" max="10">
+      <button class="card__btn add-to-cart" data-id="2">Comprar</button>
+    </div>
+  </section>
+  <hr>
+  <section class="card">
+    <div class="image">
+      <img src="imagens/expo3.jpg" class="card__image" alt="">
+    </div>
+    <div class="card__info">
+      <h4 class="card__title">Exposição 3</h4>
+      <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi nulla, eligendi,
+        officiis id corporis eius nisi voluptas, corrupti modi quisquam eveniet nobis voluptate deserunt
+        quam rem provident laborum a quae.</p>
+      <p class="card__price"><b>R$80.00</b></p><br>
+      Quantidade: <input type="number" class="card__qtd" value="1" min="1" max="10">
+      <button class="card__btn add-to-cart" data-id="3">Comprar</button>
+    </div>
+  </section>
+  <hr>
+  </div>
+</main>
+  <div class="check">
+    <a href="carrinho.html"><button>Carrinho</button></a><br>
+  </div>
+
+  <script src="compra.js"></script>
+</body>
+
+</html>

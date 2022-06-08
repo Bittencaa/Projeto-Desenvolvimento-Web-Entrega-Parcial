@@ -1,0 +1,119 @@
+*{
+  font-family: sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+  text-align: center;
+  transition: .2s linear;
+  font-size: 1.5rem;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+  width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: #f0f0f0;
+  border-radius: 5rem;
+}
+
+body{
+  background: #030303;
+}
+
+.page-title {
+  font-size: 5rem;
+  color: #f0f0f0;
+  padding: 2rem;
+}
+
+section{
+  padding:2rem 7%;
+}
+
+button{
+  display: inline-block;
+  padding:.9rem 2rem;
+  color: #f0f0f0;
+  background: #558577;
+  margin-left: 1rem;
+}
+
+.card {
+background:#f0f0f0;
+display: flex;
+border: .1rem solid #303030;  
+}
+
+.card .image {
+text-align: center;
+padding:2rem;
+}
+
+.card .image img {
+max-height: 20rem;
+max-width: 25rem;
+padding: 2rem;
+vertical-align: middle;
+}
+
+.card .card__info{
+padding:2rem;
+}
+
+.card .card__info h4{
+  padding-bottom: 2rem;
+font-size: 2rem;
+color:#030303;
+}
+
+.card .card__info .card__text{
+line-height: 1.8;
+text-align: justify;
+}
+
+.check {
+  padding: 2rem;
+}
+
+.check button {
+  font-size: 2rem;
+}
+
+.check button:hover {
+  background:#f0f0f0;
+  color: #558577;
+}
+
+.shopping-cart-container {
+  text-align: center;
+}
+
+table {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  border: 1px solid #030303;
+  background-color: #f0f0f0;
+  padding: 5px;
+}
+
+#cart-content thead tr th:nth-child(4) {
+  border: none;
+  background-color: #030303;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Página de login dw</title>
+  <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+<body>
+        <div class="container">
+            <div class="card">
+                <h1>Login</h1>
+                <div id="erro"></div>
+
+                <div class="label-float">
+                    <input type="text" id="usuario" placeholder="" required>
+                    <label id= "labelUsuario" for="usuario">Usuário</label>
+                </div>
+
+                <div class="label-float">
+                    <input type="password" id="senha" placeholder="" required>
+                    <label id= "labelSenha" for="usuario">Senha</label>
+                </div>
+                
+                <div class="justify-center">
+                    <button onclick="entrar()">Entrar</button>
+                </div>
+
+                <div>
+                    <hr>
+                </div>
+
+                <p>Não possui uma conta?
+                    <a href="cadastro.html">Cadastre-se </a>
+                </p>
+
+                <p><a href="inicio.html">Voltar para o Início </a></p>
+            </div>
+        </div>
+    </body>
+  <script  src="login.js"></script>
+
+</body>
+</html>

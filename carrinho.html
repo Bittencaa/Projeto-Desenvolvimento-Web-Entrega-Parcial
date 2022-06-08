@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="uft-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho</title>
+  <link rel="stylesheet" href="compra.css">
+</head>
+
+<body>
+  <h2 class="page-title">Carrinho</h2><hr>
+  <div id="shopping-cart" class="shopping-cart-container">
+    <table id="cart-content">
+      <thead>
+        <tr>
+          <th>Ingresso</th>
+          <th>Preço Unitário</th>
+          <th>Quantidade</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="tab"></tbody>
+    </table><br>
+    <p class="total-container" id="total-price"></p><br>
+    <a href="inicio.html" class="cart-btn"><button class="card__btnCart" type="button">Início</button></a>
+    <a id="checkout-btn" class="cart-btn"><button class="card__btnCart" type="button">Checkout</button></a>
+    <a id="clear-cart" class="cart-btn"><button class="card__btnCart" type="button">Limpar carrinho</button></a>
+  </div>
+  <div class="grid" id="grid"></div>
+  <script src="compra.js"></script>
+</body>
+
+</html>

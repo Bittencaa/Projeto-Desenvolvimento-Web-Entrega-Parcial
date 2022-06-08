@@ -1,0 +1,247 @@
+*{
+    font-family: sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #f0f0f0;
+    border-radius: 5rem;
+}
+
+body{
+    background: #030303;
+}
+
+section{
+    padding:2rem 7%;
+}
+
+.heading{
+    text-align: center;
+    color:#f0f0f0;
+    text-transform: uppercase;
+    padding: 3.5rem 0;
+    font-size: 4rem;
+}
+
+.heading span{
+    color:#558577;
+    text-transform: uppercase;
+}
+
+.btn{
+    margin: 1rem 0;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color: #f0f0f0;
+    background: #558577;
+    cursor: pointer;
+}
+
+.btn:hover{
+    margin: 1rem 0;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.7rem;
+    color: #f0f0f0;
+    background: #2a3e38;
+    cursor: pointer;
+}
+
+.header{
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.5rem 7%;
+    border-bottom: .1rem solid #303030;
+    position: fixed;
+    top:0; left: 0; right: 0;
+}
+
+.header .logo img{
+    height: 6rem;
+}
+
+.header .navbar a{
+    margin:0 1rem;
+    font-size: 1.6rem;
+    color: #030303;
+}
+
+.header .navbar a:hover{
+    color:#558577;
+    border-bottom: .1rem solid #558577;
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(imagens/home.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 60rem;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    color:#030303;
+    text-shadow: 3px 3px 4px #f0f0f0;
+}
+
+.home .content p span{
+    font-size: 2rem;
+    line-height: 2;
+    padding: 1rem 0;
+    color:#303030;
+    background-color: rgba(240, 240, 240, 0.5);
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    background:#f0f0f0;
+}
+
+.about .row .image{
+    flex:1 1 45rem;
+}
+
+.about .row .image img{
+    max-height: 60vh;
+    width: 100%;
+}
+.about .row .content{
+    flex:1 1 45rem;
+    padding:2rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color:#030303;
+}
+
+.about .row .content p{
+    font-size: 1.6rem;
+    color: #303030;
+    padding:1rem 0;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+.menu .box-container .box{ /*/*/
+    padding: 5rem;
+    text-align: center;
+    border: .1rem solid #303030;    
+    background-color: #030303;
+}
+
+.menu .box-container .box img{
+    height: 20rem;
+    width: 100%;
+}
+
+.menu .box-container .box h3{
+    color: #f0f0f0;
+    font-size: 2rem;
+    padding:1rem;
+}
+
+.menu .box-container .box p{
+    color: #f0f0f0;
+    font-size: 1.5rem;
+    padding:1rem 0;
+}
+
+.menu .box-container .box p+p{
+    text-align: justify;
+}
+
+.menu .box-container .box:hover{
+    background:#f0f0f0;
+}
+
+.menu .box-container .box:hover > *{
+    color:#030303;
+}
+
+.footer{
+    background:#f0f0f0;
+    text-align: center;
+    display: flex;
+}
+
+.footer .column {
+  flex: 50%;
+  font-weight: lighter;
+  padding: 2rem 5rem;
+  text-align: center;
+}
+
+.footer .column h2 {
+  color:#558577;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  padding:1.5rem;
+}
+
+.footer .column p {
+  color: #030303;
+  font-size: 1.4rem;
+  padding-top: 2rem;
+}
+
+.footer div:nth-of-type(2) {
+  border-left: 0.1em dotted #558577;
+}
+
+.footer .links{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer .links a{
+    padding:.5rem 2rem;
+    color: #558577;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.footer .column .links a:hover{
+  border-bottom: .1rem solid #558577;
+}
+
+.footer .column .links ul li {
+  display: block;
+  list-style: none;
+  padding: 1rem;
+}
